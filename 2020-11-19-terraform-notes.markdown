@@ -11,4 +11,7 @@ categories: Technology
 - [Spin up a t2.micro instance on AWS using Terraform](#Spin-up-a-t2.micro-instance-on-AWS-using-Terraform)
 - [Spin up a docker Nginx image locally with Terraform](#Spin-up-a-docker-Nginx-image-locally-with-Terraform)
 
-# Spin up a t2.micro instance on AWS using Terraform
+## Spin up a t2.micro instance on AWS using Terraform
+
+
+## Spin up a docker Nginx image locally with Terraform
