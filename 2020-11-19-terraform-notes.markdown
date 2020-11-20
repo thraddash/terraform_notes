@@ -9,10 +9,10 @@ categories: Technology
 # Terraform notes #
 ### Requirements:
 :heavy_check_mark: <strong>[Install Terraform](https://www.terraform.io/downloads.html)</strong>
-<details><summary><sup>Windows Install</sup></summary><p>blah</p></details>
+<details><summary><sup><sup>Windows Install</sup></sup></summary><p>blah</p></details>
 
 :heavy_check_mark: <strong>[Create AWS Account](https://console.aws.amazon.com/console)</strong>
-<details><summary><sup>Screenshots<sup></summary>
+<details><summary><sup><sup>Screenshots<sup></sup></summary>
 <p>
 [![](assets/img/blog/terraform/aws.jpg)]()
 </p>
