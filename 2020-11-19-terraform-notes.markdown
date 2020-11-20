@@ -12,10 +12,9 @@ categories: Technology
 <br />
 :heavy_check_mark: <strong>[Create AWS Account](https://console.aws.amazon.com/console)</strong>
 <br />
-
 <details><summary><sup><sup>Screenshots<sup></sup></summary>
 <p>
-![](https://github.com/thraddash/terraform_notes/blob/main/assets/img/blog/terraform/aws.png)
+<img src="assets/img/blog/terraform/aws.png">
 
 </p>
 </details>
