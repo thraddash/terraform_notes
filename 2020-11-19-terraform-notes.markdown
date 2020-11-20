@@ -20,7 +20,6 @@ categories: Technology
 
 
 #### Useful Commands
----
 ```
 $ terraform plan                                # shows what will be used when building base on terraform file
 $ terraform apply                               # shortcut for (terraform plan -out file; terraform apply file; rm file;)
@@ -48,3 +47,4 @@ Add user <strong>terraform</strong> to <strong>Admin<strong> group<br/>
 </details>  
 
 ### Spin up a docker Nginx image locally with Terraform
+  
