@@ -14,9 +14,28 @@ categories: Technology
 
 
 ## Table of contents
-
+- [Useful Commands](#Useful-Commands)
 - [Spin up a t2.micro instance on AWS using Terraform](#Spin-up-a-t2.micro-instance-on-AWS-using-Terraform)
 - [Spin up a docker Nginx image locally with Terraform](#Spin-up-a-docker-Nginx-image-locally-with-Terraform)
+
+
+#### Useful Commands
+---
+```
+$ terraform plan                                # shows what will be used when building base on terraform file
+$ terraform apply                               # shortcut for (terraform plan -out file; terraform apply file; rm file;)
+                                                avoid this in production
+$ terraform plan -out out.terraform             # terraform plan and write the plan to an out file
+$ terraform apply out.terraform                 # apply terraform plan using out file
+$ terraform show                                # show current state
+$ cat terraform.tfstate                         # show state in JSON format
+$ terraform destroy                             # terminate instance 
+$ terraform fmt                                 # format configuration
+$ terraform validate                            # validate configuration
+$ terraform apply -var-file="sensitive.tfvars"  # load variable from file
+$ export TF_VAR_region="us-east-1"              # set env variable
+$ unset TF_VAR_region
+```
 
 ### Spin up a t2.micro instance on AWS using Terraform
 
