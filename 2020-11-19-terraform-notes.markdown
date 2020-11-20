@@ -44,6 +44,7 @@ $ unset TF_VAR_region
 Create new user <strong>terraform</strong><br/>
 Create new group <strong>Admin</strong> with <strong>AdministrationAccess</strong> policy<br/>
 Add user <strong>terraform</strong> to <strong>Admin<strong> group<br/>
+Save csv credentials<br />
 </details>  
 
 ### Spin up a docker Nginx image locally with Terraform
