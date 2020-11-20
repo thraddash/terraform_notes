@@ -10,30 +10,22 @@ categories: Technology
 ### Requirements:
 <sup>:heavy_check_mark: <strong>[Install Terraform](https://www.terraform.io/downloads.html)</strong></sup>
   
-<sup>:heavy_check_mark: <strong>[Create AWS Account](https://console.aws.amazon.com/console)</strong></sup>
-<br />
-<details><summary><sup><sup>Screenshots<sup></sup></summary>
-<p>
-<img src="assets/img/blog/terraform/aws.png">
+<sup>:heavy_check_mark: <strong>[Create AWS Account](https://console.aws.amazon.com/console)</strong></sup>  
 
-</p>
-</details>
-  
+
 ## Table of contents
 
 - [Spin up a t2.micro instance on AWS using Terraform](#Spin-up-a-t2.micro-instance-on-AWS-using-Terraform)
 - [Spin up a docker Nginx image locally with Terraform](#Spin-up-a-docker-Nginx-image-locally-with-Terraform)
 
 ### Spin up a t2.micro instance on AWS using Terraform
-OS: (Windows 10 Terraform v0.13.5)
-<br />
-<br />
-<br />
-<br />
 
 
-
-
-
+</sup>  
+<details><summary>Create AWS admin user</summary>
+Create new user <strong>terraform</strong><br/>
+Create new group <strong>Admin</strong> with <strong>AdministrationAccess</strong> policy<br/>
+Add user <strong>terraform</strong> to <strong>Admin<strong> group<br/>
+</details>  
 
 ### Spin up a docker Nginx image locally with Terraform
