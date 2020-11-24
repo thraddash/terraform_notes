@@ -44,47 +44,52 @@ Add user <strong>terraform</strong> to <strong>Admin<strong> group<br/>
 Save csv credentials<br />
 </details>
 <details><summary>Terraform Configs</summary>
-<b>provider.tf</b>
+provider.tf
 
 ```
-  provider "aws" {
+provider "aws" {
     access_key = var.AWS_ACCESS_KEY
     secret_key = var.AWS_SECRET_KEY
     region     = var.AWS_REGION
-  }
+}
 ```
-<b>instance.tf</b>
+instance.tf
+
 ```
-  resource "aws_instance" "example" {
+resource "aws_instance" "example" {
     ami = var.AMIS[var.AWS_REGION]
     instance_type = "t2.micro"
-  }
+}
 ```
-<b>var.tf</b>
+var.tf
+
 ```
 variable "AWS_ACCESS_KEY" {}
 variable "AWS_SECRET_KEY" {}
-  variable "AWS_REGION" {
-    default = "us-east-1"
-    variable "AMIS" {
-      type = map
-      default = {
-        us-east-1 = "ami-0947d2ba12ee1ff75",
-        us-east-1 = "ami-0885b1f6bd170450c"
-      }
-    }
+variable "AWS_REGION" {
+  default = "us-east-1"
+}
+variable "AMIS" {
+  type = map
+  default = {
+    us-east-1 = "ami-0947d2ba12ee1ff75",
+    us-east-1 = "ami-0885b1f6bd170450c"
   }
 }
-```
-<b>terraform.tfvars
-</b>
+``` 
+terraform.tfvars
+
 ```
 AWS_ACCESS_KEY = "REPLACE_ACCESS_KEY"
 AWS_SECRET_KEY = "REPLACE_SECRET_KEY"
 AWS_REGION = "us-east-1 "
 ```
 
+
 </details>
+
+
+
 
 
     
