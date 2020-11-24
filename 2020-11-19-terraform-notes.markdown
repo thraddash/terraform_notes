@@ -45,7 +45,7 @@ Save csv credentials<br />
 </details>
 <details><summary>Terraform Configs</summary>
 <b>provider.tf</b>
-  
+
 ```
   provider "aws" {
     access_key = var.AWS_ACCESS_KEY
@@ -53,14 +53,14 @@ Save csv credentials<br />
     region     = var.AWS_REGION
   }
 ```
-<b>instance.tf</b>  
+<b>instance.tf</b>
 ```
   resource "aws_instance" "example" {
     ami = var.AMIS[var.AWS_REGION]
     instance_type = "t2.micro"
   }
 ```
-<b>var.tf</b>  
+<b>var.tf</b>
 ```
 variable "AWS_ACCESS_KEY" {}
 variable "AWS_SECRET_KEY" {}
@@ -77,7 +77,7 @@ variable "AWS_SECRET_KEY" {}
 }
 ```
 <b>terraform.tfvars
-</b>  
+</b>
 ```
 AWS_ACCESS_KEY = "REPLACE_ACCESS_KEY"
 AWS_SECRET_KEY = "REPLACE_SECRET_KEY"
