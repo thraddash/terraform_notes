@@ -89,12 +89,12 @@ AWS_REGION = "us-east-1 "
 <details><summary>Terraform Commands</summary>
   
 ```
-terraform init
-terraform plan
-terraform plan -out out.terraform
-terraform apply -var-file="out.terraform
-terraform show
-terraform destroy
+$ terraform init
+$ terraform plan
+$ terraform plan -out out.terraform
+$ terraform apply -var-file="out.terraform
+$ terraform show
+$ terraform destroy
 ```
 </details>
 
