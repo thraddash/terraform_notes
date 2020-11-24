@@ -84,11 +84,19 @@ AWS_ACCESS_KEY = "REPLACE_ACCESS_KEY"
 AWS_SECRET_KEY = "REPLACE_SECRET_KEY"
 AWS_REGION = "us-east-1 "
 ```
-
-
 </details>
 
-
+<details><summary>Terraform Commands</summary>
+  
+```
+terraform init
+terraform plan
+terraform plan -out out.terraform
+terraform apply -var-file="out.terraform
+terraform show
+terraform destroy
+```
+</details>
 
 
 
