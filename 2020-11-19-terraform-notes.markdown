@@ -36,7 +36,7 @@ $ export TF_VAR_region="us-east-1"              # set env variable
 $ unset TF_VAR_region
 ```
 
-### Spin up a t2.micro instance on AWS using Terraform
+## Spin up a t2.micro instance on AWS using Terraform
 <details><summary>Create AWS admin user</summary>
 Create new user named <strong>terraform</strong><br/>
 Create new group named <strong>Admin</strong> with <strong>AdministrationAccess</strong> policy<br/>
@@ -101,6 +101,6 @@ $ terraform destroy
 
 
     
-### Spin up a docker Nginx image locally with Terraform
+## Spin up a docker Nginx image locally with Terraform
   
-### Test Ansible build AMIs with Packer
+## Test Ansible build AMIs with Packer
